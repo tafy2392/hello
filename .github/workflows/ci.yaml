@@ -10,6 +10,7 @@ jobs:
         with:
           fetch-depth: 0
           repository: tafy2392/database-entity-operator
+          ref: ruru
       - name: Update Changelog
         run: |
           echo "tanya1" >> CHANGELOG.md
@@ -20,4 +21,3 @@ jobs:
           title: Update Changelog
           body: Update changelog to reflect release changes
           branch: update-changelog
-          base: main
