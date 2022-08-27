@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          repository: github.com/tafy2392/database-entity-operator
+          repository: tafy2392/database-entity-operator
       - name: Update Changelog
         run: |
           curl -o git-chglog -L https://github.com/git-chglog/git-chglog/releases/download/0.9.1/git-chglog_linux_amd64
